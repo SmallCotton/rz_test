@@ -1,0 +1,101 @@
+.myaddr{
+  padding: 0 40rpx 40rpx;
+}
+.category{
+  width: 130rpx;
+  height: 30rpx;
+  /* margin: 40rpx auto; */
+  text-align: left;
+  color: #c4b483;
+  font-size: 28rpx;
+  margin-top:30rpx;
+}
+.tab-group{
+  border: 1rpx solid #000;
+  margin-top: 35rpx;
+}
+.bits{
+  /* height: 85rpx; */
+  /* line-height: 85rpx; */
+  color: #000;
+  font-size: 26rpx;
+  padding: 0 30rpx;
+  padding-bottom: 30rpx;
+  border-bottom: 1rpx solid #666; 
+}
+.bits view{
+  height: 55rpx;
+  line-height: 85rpx;
+  color: #000;
+  font-size: 26rpx;
+  padding: 0 10rpx;
+  /* border-bottom: 1rpx solid #666; */
+}
+/* .bits-last view{
+  height: 55rpx;
+  line-height: 85rpx;
+  color: #000;
+  font-size: 26rpx;
+  padding: 0 10rpx;
+   border-bottom: 1rpx solid #666; 
+} */
+.bits:last-child{
+  border: none;
+}
+.lable{
+  color: #333;
+  width: 150rpx;
+  float: left;
+}
+.txt{
+  width: 300rpx;
+  /* float: left; */
+}
+.addr-box{
+  padding: 30rpx;
+  font-size: 26rpx;
+  line-height: 35rpx;
+}
+.edit-box{
+  height: 40rpx;
+  line-height: 40rpx;
+  color: #000;
+  font-size: 24rpx;
+  margin-top: 40rpx;
+}
+.edit-box image,
+.edit-box view{
+  display: inline-block;
+}
+.ico{
+  margin-right: 11rpx;
+  /* vertical-align: middle; */
+}
+.ico-chek{
+  width: 22rpx;
+  height: 22rpx;
+  margin-top: 9rpx;
+  float: left;
+} 
+.ico-edit{
+  width: 28rpx;
+  height: 28rpx;
+  margin-top: 8rpx;
+  float: left;
+} 
+.ico-delet{
+  width: 30rpx;
+  height: 30rpx;
+  margin-top: 7rpx;
+  float: left;
+} 
+.delet{
+  margin-left: 43rpx;
+}
+.sel text{
+  color: #c4b483;
+}
+textarea{
+  width: 100%;
+  height: 100rpx;
+}

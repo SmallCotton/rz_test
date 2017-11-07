@@ -1,0 +1,64 @@
+.myproduct{
+  padding: 0 40rpx;
+}
+.txt-box{
+  color: #000;
+  float:left;
+  margin-left: 40rpx;
+}
+.top-box{
+  height: 213rpx;
+}
+.img{
+  width: 134rpx;
+  height: 213rpx;
+  float: left;
+}
+.txt-box view{
+  height: 48rpx;
+  line-height: 48rpx;
+  font-size: 24rpx;
+}
+.name{
+  font-size: 28rpx;
+  font-weight: bold;
+  height: 60rpx;
+  line-height: 60rpx;
+  display: block;
+}
+.lable{
+  color: #333;
+  width: 150rpx;
+  float: left
+}
+.txt{
+  width: 300rpx;
+  float: left;
+}
+.btn-box{
+  height: 56rpx;
+  margin: 30rpx 0;
+}
+.btn{
+  width: 152rpx;
+  height: 56rpx;
+  display: block;
+  float: right;
+  text-align: center;
+  line-height: 56rpx;
+  font-size: 26rpx;
+  color: #fff;
+}
+.btny{
+  background: #c4b483;
+}
+.btng{
+  background: #b3b3b3;
+}
+.group{
+  padding-top: 30rpx;
+  border-bottom: 1px solid #262626;
+}
+.group:last-child{
+  border: none;
+}

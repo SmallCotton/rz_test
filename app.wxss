@@ -1,0 +1,40 @@
+/**app.wxss**/
+view,text,textarea{
+  font-family: PingFang SC Medium;
+}
+image{
+  display: block;
+}
+.normal-hover{
+  color: inherit;
+  background-color: inherit;
+}
+.btn-box{
+  height: 200rpx;
+  width: 100%;
+}
+.btnb{
+  width: 206rpx;
+  height: 72rpx;
+  line-height: 72rpx;
+  text-align: center;
+  color: #fff;
+  font-size: 30rpx;
+  background-color: #262626;
+  display: block;
+  margin: 60rpx auto 0;
+}
+.clear::after{
+  clear: both;
+  content: '';
+  display: block;
+}
+.hide{
+  display: none;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}

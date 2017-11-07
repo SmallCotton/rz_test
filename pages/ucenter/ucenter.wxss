@@ -1,0 +1,54 @@
+/* pages/ucenter/ucenter.wxss */
+.ucenter{
+  padding: 0 40rpx;
+}
+.userinfo-avatar{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 100%;
+  margin: 40rpx auto;
+}
+.list{
+  border: 1px solid #000;
+} 
+.list navigator{
+  display: block;
+  height: 80rpx;
+  border-bottom: 1rpx solid #000;
+  line-height: 80rpx;
+  padding: 0 25rpx;
+}
+.list navigator:last-child{
+  border: none;
+}
+.list picker{
+  display: block;
+  height: 80rpx;
+  border-bottom: 1rpx solid #000;
+  line-height: 80rpx;
+  padding: 0 25rpx;
+}
+.list view{
+  display: block;
+  height: 80rpx;
+  /* border-bottom: 1rpx solid #000; */
+  line-height: 80rpx;
+  padding: 0 25rpx;
+}
+.list .txt1{
+  font-size: 28rpx;
+  color: #000;
+}
+.list .txt2{
+  color: #333;
+  font-size: 26rpx;
+  float: right;
+}
+.list .arr{
+  width: 9rpx;
+  height: 16rpx;
+  float: right;
+  margin-left: 22rpx;
+  margin-top: 33rpx;
+} 
+

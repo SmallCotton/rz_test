@@ -1,0 +1,29 @@
+<!--pages/entry/entry.wxml-->
+<view class="tit-box">
+  <image src="../../images/story.png"></image>
+</view>
+<view class="video-box">
+  <video id="myVideo" src="http://27.221.100.109/youku/6976E8F062638830F030C021C4/030008010059489370CF2A019DBA84C62AC42D-9B80-DEF3-D1DF-EA0121D4E8F2.mp4?sid=05082961776641237fec6&ctype=12&ccode=0401&duration=15&expire=18000&psid=ae04261801b8c0ceee8ccf324d43a974&ups_client_netip=61.148.243.157&ups_ts=1508296177&ups_userid=&utid=jEnOEXqo2k0CAXLy%2BrSZlj33&vkey=A84bc502ed8017e4d214b78e0ee5901de&vid=XMjgzNzEwNjEyMA%3D%3D&nk=76529420694_25138269672&ns=0_2935151&special=true" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+</view>
+<text class="word-text">FOSSIL 品牌成立于1984年，
+是源于美国的国际知名时尚生活品牌。
+FOSSIL以好奇心为设计灵感，玩转经典元素，将妙趣
+横生的创意设计和充满活力的悦动色彩融
+入产品中，每一款手表，包袋，首饰，和智能可穿戴设
+备都体现出FOSSIL”唤起好奇心”的品牌精神。</text>
+<view class='br'></view>
+<image src='../../images/sad.png' class='ad'></image>
+<text class="word-text">FOSSIL Q 是能符合腕表目前包括 Q ACCOMPLICE、
+Q TAILOR、Q MODERN PURSUIT、
+Q CRWMASTER、Q GRANT系列，
+在普通的腕表外观下藏着一个不简单的“芯”，
+只需与只能手机连接，便能显示出它们的逆天之处，
+各项高科技功能，其中包括活动追踪、睡眠追踪、
+智能手机提醒、卡路里、自动时区更新、多时区、闹铃提醒设置、音乐控制、拍照、唤醒手机。
+为喜欢科技产品却又不想走平凡之路的你更多选择。</text>
+
+<view class='taobao'>
+  <image src='../../images/taobao.png'></image>
+  <text>FOSSIL 天猫官方旗舰店</text>
+  <navigator url='https://fossil.tmall.com/' class='btn-bay' hover-class="btn-bay-hover">立即购买</navigator>
+</view>

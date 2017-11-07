@@ -1,0 +1,116 @@
+<view class="de-box">
+  <image src='../../images/xq.png'></image>
+  <text class='tit'>Tailor 玫瑰金色不锈钢表带多功能腕表</text>
+  <view>
+    <text class='lable'>保修期：</text>
+    <text class='txt'>2年</text>
+  </view>
+  <view>
+    <text class='lable'>颜色：</text>
+    <text class='txt'>蓝色ES4291</text>
+  </view>
+</view>
+<view class='title'>购买详情</view>
+<view class='fill-box'>
+  <view class='fill-group'>
+    <view class='lable'>购买渠道</view>
+    <view class='checkbox-group'>
+      <view class='checkbox sel'>
+        <image src='../../images/ico-sel.png' class='ico-che'></image>
+        <text>天猫官网</text>
+      </view>
+      <view class='checkbox'>
+        <image src='../../images/ico-che.png' class='ico-che'></image>
+        <text>国内官网</text>
+      </view>
+      <view class='checkbox'>
+        <image src='../../images/ico-che.png' class='ico-che'></image>
+        <text>专营门店</text>
+      </view>
+    </view>
+  </view>
+  <view class='fill-group'>
+    <view class='lable'>购买时间：</view>
+    <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+      <view class="picker">{{date}} <image class='arr-rt' src='../../images/arr-rt.png'></image> </view>
+    </picker>
+  </view>
+  <view class='fill-group'>
+    <view class='lable'>订单编号：</view>
+    <input placeholder="请输入订单编号"/>
+  </view>
+  <view class='fill-group'>
+    <view class='lable'>损坏问题：</view>
+    <view class='checkbox-group'>
+      <view class='checkbox sel'>
+        <image src='../../images/ico-sel.png' class='ico-che'></image>
+        <text>外部问题</text>
+      </view>
+      <view class='checkbox'>
+        <image src='../../images/ico-che.png' class='ico-che'></image>
+        <text>内部问题</text>
+      </view> 
+    </view>
+     <textarea placeholder="请详细描述一下损坏问题" />
+  </view>
+  <view class='fill-group fixed-group'>
+    <view class='lable'>维修方式：</view>
+      <view class='che-tip-box clear' style='margin-bottom: 30rpx;'>
+        <view class='checkbox sel'>
+          <image src='../../images/ico-sel.png' class='ico-che'></image>
+          <text>邮寄维修点</text>
+        </view>
+        <view class='tip'>保修期内，邮寄请选择货到付款</view>
+      </view>
+      <view class='che-tip-box clear'>
+        <view class='checkbox'>
+          <image src='../../images/ico-che.png' class='ico-che'></image>
+          <text>国内官网</text>
+        </view>
+        <view class='tip'>抱歉：您定位的城市尚未开通维修点，
+        请选择邮寄方式维修</view>
+      </view>
+  </view>
+  <view class='fill-group'>
+    <view class='lable'>我的地址：<text>维修后，邮寄回给您</text></view>
+    <view class='des'>
+      <view class='des-vie'>
+        <text class='name'>吴小语</text>
+        <text class='phone'>187345645667</text>
+        <view class='btn-change'>更换<image src='../../images/arr-rt.png' class='arr-rt2'></image></view>
+      </view>
+      <view class='addr'>北京市海淀区上地街道上地西路8号院 上地科技大厦4号楼</view>
+    </view>
+  </view>
+  <view class='fill-group' style='border:none;'>
+    <view class='lable'>门店信息：<text>更多门店信息，可在个人中心查询</text></view>
+    <view class='che-addr-box sel'>
+      <view class='checkbox sel'>
+        <image src='../../images/ico-sel.png' class='ico-che'></image>
+        <text>北京欧美汇购物中心店</text>
+        <image src='../../images/arr2.png' class='arr2'></image>
+      </view>
+      <view class='door-addr'>
+        <text>地址：海淀区但境界甲一号欧美汇购物中心一层</text>
+        <text>电话：010-234345</text>
+        <text>营业时间：周一至周日 10:00-22:00</text>
+      </view>
+    </view>
+    <view class='che-addr-box'>
+      <view class='checkbox'>
+        <image src='../../images/ico-che.png' class='ico-che'></image>
+        <text>北京欧美汇购物中心店</text>
+        <image src='../../images/arr-rt.png' class='arr-rt2'></image>
+      </view>
+      <view class='door-addr'>
+        <text>地址：海淀区但境界甲一号欧美汇购物中心一层</text>
+        <text>电话：010-234345</text>
+        <text>营业时间：周一至周日 10:00-22:00</text>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="space130"></view>
+<view class='btn-box'>
+  <navigator class='btnb' bindtap='onSubmitClick'>提交</navigator>
+</view>

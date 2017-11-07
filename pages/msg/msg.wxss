@@ -1,0 +1,198 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+.de-box{
+  width: 100%;
+  height:  315rpx;
+  box-sizing: border-box;
+  padding: 38rpx;
+  padding-left: 215rpx;
+  position: relative;
+  border-bottom: 4rpx solid #262626;
+}
+.de-box image{
+  width:179rpx;
+  height: 240rpx;
+  position: absolute;
+  left: 38rpx;
+  top: 38rpx;
+}
+.de-box .tit{
+  font-size: 26rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  margin: 28rpx auto 3rpx;
+  color: #000;
+  display: block;
+}
+.de-box .lable{
+  color: #4c4c4c;
+  font-size: 24rpx;
+  line-height: 50rpx;
+}
+.de-box .txt{
+  color: #000;
+  font-size: 24rpx;
+}
+.title{
+  font-size: 30rpx;
+  color: #000;
+  padding-left: 50rpx;
+  margin: 50rpx 0 10rpx;
+  font-weight: bold;
+}
+.fill-box{
+  padding-left: 50rpx;
+}
+.fill-box .lable{
+  font-size: 28rpx;
+  color: #000;
+  margin-bottom: 50rpx;
+}
+.lable text{
+  color: #e05a4c;
+  font-size: 24rpx;
+  margin-left: 20rpx;
+}
+.fill-group .checkbox{
+  display: inline-block;
+  width: 227rpx;
+  font-size: 26rpx;
+}
+.checkbox.sel{
+  color: #a8a173;
+}
+.ico-che{
+  width: 24rpx;
+  height: 24rpx;
+  float: left;
+  display: inline-block;
+  margin-right: 20rpx;
+  margin-top: 6rpx;
+}
+.fill-group{
+  border-bottom: 1px solid #000;
+  padding-top: 50rpx;
+  padding-bottom: 44rpx;
+}
+.arr-rt{
+  float: right;
+  width: 15rpx;
+  height: 26rpx;
+  margin-right: 60rpx;
+  margin-top: 6rpx;
+}
+.picker{
+  font-size: 28rpx;
+  color: #000;
+}
+input{
+  font-size: 26rpx;
+}
+textarea{
+  width: 650rpx;
+  height: 200rpx;
+  font-size: 26rpx;
+  line-height: 40rpx;
+  margin-top: 30rpx;
+}
+
+.tip{
+  color: #e05a4c;
+  width: 400rpx;
+  font-size: 24rpx;
+  line-height: 40rpx;
+  display: inline-block;
+  float: left;
+}
+.fixed-group .checkbox{
+  float: left;
+}
+ 
+.des {
+  color: #000;
+}
+.des .name{
+  font-size: 26rpx;
+  margin-right: 30rpx;
+}
+.des .phone{
+  font-size: 28rpx;
+}
+.btn-change{
+  font-size: 24rpx;
+  display: inline-block;
+  float: right;
+}
+.des-vie{
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.arr-rt2{
+  width: 10rpx;
+  height: 18rpx; 
+  float: right;
+  margin: 33rpx 60rpx 0 12rpx;
+}
+.addr{
+  font-size: 24rpx;
+  margin-top: 20rpx;
+}
+.che-addr-box{
+ 
+}
+.che-addr-box .checkbox{
+  width: 100%;
+  margin: 26rpx 0;
+}
+.che-addr-box .arr-rt2{
+  margin-top: 10rpx;
+}
+.door-addr{
+  background-color: #f2f2f2;
+  width: 610rpx;
+  padding: 10rpx 30rpx;
+  color: #333;
+  font-size: 24rpx;
+  box-sizing: border-box;
+  margin-left: 26rpx;
+  display: none;
+}
+.door-addr text{
+  display: block;
+  line-height: 50rpx;
+}
+.arr2{
+  width: 18rpx;
+  height: 10rpx;
+  float: right;
+  margin-right: 50rpx;
+}
+.che-addr-box.sel .door-addr{
+  display: block;
+}
+.btn-box{
+  border-top: 4rpx solid #262626;
+}
+
+.btn-box{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  border-top: 1px solid #ddd;
+  height: 130rpx;
+}
+.btnb{
+  margin-top: 30rpx;
+}
+.space130{
+  width: 100%;
+  height: 130rpx;
+}

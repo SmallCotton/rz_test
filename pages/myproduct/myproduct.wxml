@@ -1,0 +1,48 @@
+<view class='myproduct'>
+  <view class='group'>
+    <view class='top-box'>
+      <image src='../../images/sp1.png' class='img'></image>
+      <view class='txt-box'>
+        <text class='name'>Tailor 蓝色不锈钢多功能腕表</text>
+        <view>
+          <text class='lable'>购买时间：</text>
+          <text class='txt'>2017-06-08</text>
+        </view>
+        <view>
+          <text class='lable'>保修期：</text>
+          <text class='txt'>2年</text>
+        </view>
+        <view>
+          <text class='lable'>颜色：</text>
+          <text class='txt'>蓝色ES4291</text>
+        </view>
+      </view>
+    </view>
+    <view class='btn-box'>
+      <navigator url="../msg/msg" class='btn btny'  hover-class="normal-hover">保修</navigator>
+    </view>
+  </view>
+  <view class='group'>
+    <view class='top-box'>
+      <image src='../../images/sp1.png' class='img'></image>
+      <view class='txt-box'>
+        <text class='name'>Tailor 蓝色不锈钢多功能腕表</text>
+        <view>
+          <text class='lable'>购买时间：</text>
+          <text class='txt'>2017-06-08</text>
+        </view>
+        <view>
+          <text class='lable'>保修期：</text>
+          <text class='txt'>2年</text>
+        </view>
+        <view>
+          <text class='lable'>颜色：</text>
+          <text class='txt'>蓝色ES4291</text>
+        </view>
+      </view>
+    </view>
+    <view class='btn-box'>
+      <text class='btn btng'>已过期</text>
+    </view>
+  </view>
+</view>

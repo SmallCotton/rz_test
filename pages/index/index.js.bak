@@ -1,0 +1,73 @@
+var app = getApp()
+Page({
+  data: {
+    imgUrls: [
+      '../../images/s1.jpg',
+      '/resources/images/watch1.jpg',
+      '/resources/images/watch2.jpg'
+    ],
+    indicatorDots: true,
+    autoplay: true,
+    interval: 3000,
+    duration: 100,
+    userInfo: {}
+  },
+  onLoad: function () {
+    var that = this
+    //调用应用实例的方法获取全局数据
+    app.getUserInfo(function (userInfo) {
+      //更新数据
+      that.setData({
+        userInfo: userInfo
+      })
+    })
+  },
+  //事件处理函数
+  bindViewTap: function () {
+    // wx.navigateTo({
+    //   url: '../logs/logs'
+    // })
+  },
+  changeIndicatorDots: function (e) {
+    this.setData({
+      indicatorDots: !this.data.indicatorDots
+    })
+  },
+  changeAutoplay: function (e) {
+    this.setData({
+      autoplay: !this.data.autoplay
+    })
+  },
+  intervalChange: function (e) {
+    this.setData({
+      interval: e.detail.value
+    })
+  },
+  durationChange: function (e) {
+    this.setData({
+      duration: e.detail.value
+    })
+  },
+  map: function(e){
+    wx.navigateTo({
+      url: '../map/map',
+    })
+  },
+  scan: function(e){
+    wx.scanCode({
+      onlyFromCamera: true,
+      success: (res) => {
+        console.log('success:' + res)
+        wx.navigateTo({
+          url: '../msg/msg'
+        })
+      },
+      fail: (res) => {
+        console.log('fail:' + res)
+        // wx.navigateTo({
+        //   url: '../msg/msg'
+        // })
+      }
+    })
+  }
+})

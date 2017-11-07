@@ -1,0 +1,80 @@
+.vip{
+  padding: 0 50rpx;
+}
+.header{
+  margin: 45rpx 0;
+  color: #c4b483;
+  font-size: 32rpx;
+  height: 86rpx;
+  line-height: 86rpx;
+}
+.userinfo-avatar{
+  width: 86rpx;
+  height: 86rpx;
+  border-radius: 100%;
+  display: inline-block;
+  float: left;
+}
+.userinfo-nickname{
+  margin-left: 25rpx;
+} 
+.txt{
+  float: right;
+  font-size: 28rpx;
+  color: #000;
+}
+.score{
+  float: right;
+}
+.arr{
+  width: 12rpx;
+  height: 20rpx;
+  display: inline-block;
+  margin-left: 12rpx;
+}
+.card{
+  width: 596rpx;
+  height: 342rpx;
+  margin: 0 auto 80rpx;
+  border-radius: 10rpx;
+  box-shadow:  0 20rpx 60rpx -10rpx #c4b483;
+}
+.list navigator{
+  height: 100rpx;
+  line-height: 100rpx;
+  border-top: 1rpx solid #d9d9d9;
+  padding: 0 17rpx 0 72rpx;
+  position: relative;
+  font-size: 28rpx;
+  color: #000;
+}
+.list navigator:first-child{
+  border-top: none;
+}
+.arr2{
+  width: 12rpx;
+  height: 20rpx;
+  display: inline-block;
+  float: right;
+  margin-top: 42rpx;
+}
+ 
+.ico{
+  position: absolute;
+  top: 0;
+  left: 9rpx;
+  bottom: 0;
+  margin: auto;
+}
+.ico1{
+  width: 37rpx;
+  height: 37rpx;
+}
+.ico2{
+  width: 39rpx;
+  height: 38rpx;
+}
+.ico3{
+  width: 40rpx;
+  height: 37rpx;
+}

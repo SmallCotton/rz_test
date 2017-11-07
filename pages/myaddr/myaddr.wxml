@@ -1,0 +1,54 @@
+<view class='myaddr'>
+  <view class='tab-group'>
+    <view class='bits'>
+      <text class='name'>吴小语</text> 
+      <text class='phone fr'>123456789485</text> 
+    </view>
+    <view class='addr-box'>
+      <text class='addr-txt'>北京市海淀区上地西路8号院上地科技大厦8号楼北京市海淀区上地西路8号院上地科技大厦8号楼</text>
+      
+      <view class='edit-box'>
+        <view class='chek sel'>
+          <image class='ico ico-chek' src='../../images/chek2.png'></image>
+          <text>默认地址</text>
+        </view>
+        <view class='delet fr'>
+          <image class='ico ico-delet' src='../../images/delet.png'></image>
+          <text>删除</text>
+        </view>
+        <view class='edit fr'>
+          <image class='ico ico-edit' src='../../images/edit.png'></image>
+          <text>编辑</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='tab-group'>
+    <view class='bits'>
+      <text class='name'>吴小语</text> 
+      <text class='phone fr'>123456789485</text> 
+    </view>
+    <view class='addr-box'>
+     <textarea> fefr</textarea>  
+       <!-- <textarea></textarea> -->
+      <view class='edit-box'>
+        <view class='chek'>
+          <image class='ico ico-chek' src='../../images/chek1.png'></image>
+          <text>默认地址</text>
+        </view>
+        <view class='delet fr'>
+          <image class='ico ico-delet' src='../../images/delet.png'></image>
+          <text>删除</text>
+        </view>
+        <view class='edit fr'>
+          <image class='ico ico-edit' src='../../images/edit.png'></image>
+          <text>完成</text>
+        </view>
+      </view>
+    </view>
+  </view>  
+  <view class="space130"></view>
+  <view class='btn-box'>
+    <navigator class='btnb'>添加</navigator>
+  </view>
+</view>

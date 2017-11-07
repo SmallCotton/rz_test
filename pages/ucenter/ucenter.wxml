@@ -1,0 +1,42 @@
+<view class='ucenter'>
+<view class="header" bindtap='tapAvatar' bindtouchend='changeAvatar'>
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}"></image>
+    <text class="userinfo-nickname hide">{{userInfo.nickName}}</text>
+</view> 
+<view class='list'>
+  <navigator hover-class="normal-hover" bindtap='tapAvatar' bindtouchend='changeAvatar'>
+    <text class='txt1'>头像</text>
+    <image class='arr' src='../../images/arr-rt3.png'></image>
+    <text class='txt2'>更换</text>
+   </navigator> 
+  <!-- <navigator hover-class="normal-hover"> -->
+  <picker bindchange="bindGenderPickerChange" value="{{selectedGenderIndex}}" range="{{genders}}" range-key='text'>
+    <text class='txt1'>性别</text>
+    <image class='arr' src='../../images/arr-rt3.png'></image>
+    <text class='txt2'>{{genders[selectedGenderIndex].text}}</text>
+  </picker>
+   <!-- </navigator>  -->
+  <!-- <navigator url="../ucenter/ucenter" hover-class="normal-hover"> -->
+  <picker bindchange="bindAgePickerChange" value="{{selectedAgeIndex}}" range="{{ages}}">
+    <text class='txt1'>年龄</text>
+    <image class='arr' src='../../images/arr-rt3.png'></image>
+    <text class='txt2'>{{ages[selectedAgeIndex]}}</text>
+    </picker>
+  <!-- </navigator> -->
+  <navigator url="" hover-class="normal-hover">
+    <text class='txt1'>会员</text>
+    <image class='arr' src='../../images/arr-rt3.png'></image>
+    <text class='txt2'>未绑定</text>
+  </navigator>
+   <!-- <navigator url="../myaddr/myaddr" hover-class="normal-hover">
+    <text class='txt1'>收获地址</text>
+    <image class='arr' src='../../images/arr-rt3.png'></image>
+    <text class='txt2'>编辑</text>
+  </navigator>  -->
+   <view bindtap='tapAddr' bindtouchend='chooseAddr' hover-class="normal-hover">
+    <text class='txt1'>收获地址</text>
+    <image class='arr' src='../../images/arr-rt3.png'></image>
+    <text class='txt2'>编辑</text>
+  </view> 
+</view>
+</view>

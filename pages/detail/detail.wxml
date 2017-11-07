@@ -1,0 +1,91 @@
+<view class="de-box">
+  <image src='../../images/xq.png'></image>
+  <text class='tit'>Tailor 玫瑰金色不锈钢表带多功能腕表</text>
+  <view>
+    <text class='lable'>保修期：</text>
+    <text class='txt'>2年</text>
+  </view>
+  <view>
+    <text class='lable'>颜色：</text>
+    <text class='txt'>蓝色ES4291</text>
+  </view>
+</view>
+<view class='ul'>
+  <view class='li-tit'>产品参数</view>
+  <view class='li'>
+    <text class='txt1'>保修: </text>
+    <text class='txt1=2'>全国联保</text>
+  </view>
+  <view class='li'>
+    <text class='txt1'>型号: </text>
+    <text class='txt1=2'>FTW1128</text>
+  </view>
+  <view class='li'>
+    <text class='txt1'>风格: </text>
+    <text class='txt1=2'>休闲</text>
+  </view>
+  <view class='li'>
+    <text class='txt1'>显示方式: </text>
+    <text class='txt1=2'>数字式</text>
+  </view>
+  <view class='li'>
+    <text class='txt1'>表底类型: </text>
+    <text class='txt1=2'>普通</text>
+  </view>
+  <view class='li'>
+    <text class='txt1'>表盘直径: </text>
+    <text class='txt1=2'>36mm</text>
+  </view>
+  <view class='li'>
+    <text class='txt1'>手表镜面材质: </text>
+    <text class='txt1=2'>矿物强化玻璃镜面</text>
+  </view>
+  <view class='li'>
+    <text class='txt1'>机芯类型: </text>
+    <text class='txt1=2'>石英机芯</text>
+  </view>
+  <view class='li'>
+    <text class='txt1'>表带材质: </text>
+    <text class='txt1=2'>皮革</text>
+  </view>
+  <view class='li'>
+    <text class='txt1'>颜色分类: </text>
+    <text class='txt1=2'>FTW1129 FTW1128</text>
+  </view>
+  <view class='li'>
+    <text class='txt1'>表冠类型: </text>
+    <text class='txt1=2'>普通</text>
+  </view>
+  <view class='li'>
+    <text class='txt1'>品牌产地: </text>
+    <text class='txt1=2'>美国</text>
+  </view>
+  <view class='li'>
+    <text class='txt1'>品牌产地: </text>
+    <text class='txt1=2'>美国</text>
+  </view>
+  <view class='li'>
+    <text class='txt1'>品牌: </text>
+    <text class='txt1=2'>Fossil/化石</text>
+  </view>
+  <view class='li'>
+    <text class='txt1'>形状: </text>
+    <text class='txt1=2'>圆形</text>
+  </view>
+  <view class='li'>
+    <text class='txt1'>防水深度: </text>
+    <text class='txt1=2'>30米生活防水</text>
+  </view>
+  <view class='li'>
+    <text class='txt1'>表盘厚度: </text>
+    <text class='txt1=2'>8nn</text>
+  </view>
+  <view class='li'>
+    <text class='txt1'>表壳材质: </text>
+    <text class='txt1=2'>表壳材质</text>
+  </view>
+</view>
+<view class="space130"></view>
+<view class='btn-box'>
+  <navigator url='../msg/msg' class='btnb'>新品预订</navigator>
+</view>

@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/map/map",
+    "pages/index/index",
+    "pages/story/story",
+    "pages/detail/detail",
+    "pages/msg/msg",
+    "pages/myproduct/myproduct",
+    "pages/myaddr/myaddr",
+    "pages/vip/vip",
+    "pages/ucenter/ucenter",
+    "pages/service_order/so_list"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#3b3c3f",
+    "navigationBarTitleText": "FOSSIL"
+  }
+}

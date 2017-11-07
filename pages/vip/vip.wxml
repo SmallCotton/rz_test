@@ -1,0 +1,33 @@
+<view class="vip">
+  <view class="header">
+  <navigator url="../ucenter/ucenter" hover-class="normal-hover"> 
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      <image class='arr' src="../../images/arr-rt4.png"></image>
+      <text class='score'>56</text>
+      <text class='txt'>积分：</text>
+      </navigator>
+  </view> 
+
+
+<image class='card' src="../../images/vip.png"></image>
+
+<view class='list'>
+  <navigator url="../myproduct/myproduct" hover-class="normal-hover">
+    <image class='ico ico1' src="../../images/vip1.png"></image>
+     我的商品 
+    <image class='arr2' src='../../images/arr-rt3.png'></image>
+  </navigator>
+  <navigator url="../service_order/so_list" hover-class="normal-hover">
+    <image class='ico ico2' src="../../images/vip2.png"></image>
+     维修订单 
+    <image class='arr2' src='../../images/arr-rt3.png'></image>
+  </navigator>
+  <navigator url="../map/map" hover-class="normal-hover">
+    <image class='ico ico3' src="../../images/vip3.png"></image>
+     附近门店 
+    <image class='arr2' src='../../images/arr-rt3.png'></image>
+  </navigator>
+</view> 
+
+</view>
